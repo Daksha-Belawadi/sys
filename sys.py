@@ -1,8 +1,8 @@
 import sys
 
 if len(sys.argv)!= 1:
- distance = float(sys.argv[1])
- time = float(sys.argv[2])
+ distance = sys.argv[1]
+ time = sys.argv[2]
  print("User provided values:")
 else:
  print("No input values - using deafault values")
